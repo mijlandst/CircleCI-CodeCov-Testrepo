@@ -1,6 +1,7 @@
 package test;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
@@ -18,6 +19,12 @@ public class MainTest {
     
     private static final String helloWorld = "Hello, world!" 
                                            + System.lineSeparator();
+    
+    @Test
+    public void uselessConstructorTest() {
+        Main main = new Main();
+        assertTrue(main != null);
+    }
     
     /**
      * Tests if main prints "Hello, world!"
