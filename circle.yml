@@ -7,6 +7,5 @@ machine:
     
 test:
   post:
-    - "mvn cobertura:cobertura"
     - "bash <(curl -s https://codecov.io/bash)"
   
