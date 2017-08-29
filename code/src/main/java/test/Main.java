@@ -4,7 +4,7 @@ package test;
  * A dummy program to enable the creation of elementary test to verify that
  * the CI works.
  */
-abstract public final class Main {
+abstract public class Main {
 
     /**
      * Prints "Hello, world!" to standard output.
