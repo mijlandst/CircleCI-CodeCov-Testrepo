@@ -8,5 +8,7 @@ machine:
 test:
   post:
     - "bash <(curl -s https://codecov.io/bash)"
-    - "ls"
+    - "cat target/site/jacoco/index.html"
+    - "cat target/site/jacoco/index.xml"
+    - "cat target/site/jacoco/index.csv"
   
