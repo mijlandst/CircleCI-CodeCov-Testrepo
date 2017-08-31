@@ -28,7 +28,7 @@ public class MainTest {
     
     /**
      * Tests if main prints "Hello, world!"
-     *
+     */
     @Test
     public void mainTest() {
         //set input and output
@@ -68,5 +68,5 @@ public class MainTest {
         System.setOut(standardOut);
         System.setIn(standardIn);
     }
-    */
+    
 }
