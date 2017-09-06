@@ -1,7 +1,7 @@
 general:
   build_dir: code
   branches:
-    only: master
+    ignore: development
 
 machine:
   java:
