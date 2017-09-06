@@ -1,5 +1,7 @@
 general:
   build_dir: code
+  branches:
+    only: master
 
 machine:
   java:
